@@ -26,7 +26,7 @@ pale-app/
 - Consumo asíncrono real: useOrders.js simula una llamada a un servicio externo con
   await new Promise(...) (latencia de red) y async/await, devolviendo un JSON. Basta con
   reemplazar el cuerpo de fetchOrdersFromApi por un fetch/axios real hacia tu backend.
-- Rendimiento de listas: FlatList con keyExtractor estable (`order.id`),
+- Rendimiento de listas: FlatList con keyExtractor estable,
   initialNumToRender, maxToRenderPerBatch, windowSize y removeClippedSubviews.
   OrderItem está envuelto en React.memo con comparación superficial para evitar
   renders innecesarios.
