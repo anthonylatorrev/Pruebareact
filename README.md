@@ -1,20 +1,4 @@
-# Pale Orders Monitor — Mini-App de Monitoreo de Órdenes de Distribución
-
-Solución al **Examen Técnico Desarrollador React Native / React JS**.
-
-## 🚀 Cómo correrlo
-
-```bash
-npm install
-npx expo start
-```
-
-Luego escanea el QR con la app **Expo Go** (Android/iOS), o presiona `w` para verlo en web,
-`a` para Android emulator, `i` para iOS simulator.
-
-> Requiere Node 18+ y tener instalado Expo Go en el celular, o un emulador configurado.
-
-## 🗂 Estructura
+Estructura
 
 ```
 pale-app/
