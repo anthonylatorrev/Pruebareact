@@ -1,0 +1,71 @@
+{
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "authCode": "AUTH-88213",
+      "clientName": "Comercial Andina S.A.C.",
+      "status": "Pendiente",
+      "createdAt": "2026-07-01T10:15:00Z",
+      "products": [
+        { "name": "Cemento 42.5kg", "volume": 12.5, "quantity": 3 },
+        { "name": "Fierro 3/8", "volume": "8", "quantity": 2 },
+        { "name": "Ladrillo King Kong", "volume": null, "quantity": 100 }
+      ]
+    },
+    {
+      "id": "ORD-1002",
+      "authCode": "AUTH-40021",
+      "clientName": "Distribuidora Los Andes",
+      "status": "En Ruta",
+      "createdAt": "2026-07-02T14:30:00Z",
+      "products": [
+        { "name": "Yeso 30kg", "volume": "15.75", "quantity": 4 },
+        { "name": "Pintura Látex 20L", "volume": 20, "quantity": 1 },
+        { "name": "Brocha 4in", "volume": 10, "quantity": 10 }
+      ]
+    },
+    {
+      "id": "ORD-1003",
+      "authCode": "AUTH-77654",
+      "clientName": "Ferretería El Constructor",
+      "status": "Cerrada",
+      "createdAt": "2026-06-28T09:00:00Z",
+      "products": [
+        { "name": "Tubo PVC 4in", "volume": "abc", "quantity": 6 },
+        { "name": "Codo PVC 90°", "volume": 1.2, "quantity": 12 }
+      ]
+    },
+    {
+      "id": "ORD-1004",
+      "authCode": "AUTH-99887",
+      "clientName": "Grupo Vial Perú",
+      "status": "Pendiente",
+      "createdAt": "2026-07-03T08:45:00Z",
+      "products": [
+        { "name": "Asfalto en frío 25kg", "volume": "22", "quantity": 5 },
+        { "name": "Malla electrosoldada", "volume": 7.3, "quantity": 8 },
+        { "name": "Clavos 3in", "volume": "0", "quantity": 50 }
+      ]
+    },
+    {
+      "id": "ORD-1005",
+      "authCode": "AUTH-10345",
+      "clientName": "Inversiones Rímac E.I.R.L.",
+      "status": "En Ruta",
+      "createdAt": "2026-07-04T16:20:00Z",
+      "products": []
+    },
+    {
+      "id": "ORD-1006",
+      "authCode": "AUTH-55219",
+      "clientName": "Comercial Andina S.A.C.",
+      "status": "Cerrada",
+      "createdAt": "2026-06-25T11:10:00Z",
+      "products": [
+        { "name": "Cerámica 45x45", "volume": "18.4", "quantity": 20 },
+        { "name": "Porcelanato 60x60", "volume": null, "quantity": 15 },
+        { "name": "Fragua x1kg", "volume": "2.5", "quantity": 30 }
+      ]
+    }
+  ]
+}
