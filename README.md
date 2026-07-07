@@ -35,7 +35,7 @@ pale-app/
 
 ### Fase 2 — Lógica de Negocio y Resolución de Problemas
 - Filtros en tiempo real: SearchBar (por código de autorización o cliente) y
-  StatusFilter (Pendiente / En Ruta / Cerrada / Todos), combinados con `useMemo` para
+  StatusFilter (Pendiente / En Ruta / Cerrada / Todos), combinados con useMemo para
   recalcular la lista filtrada solo cuando cambian sus dependencias.
 - Control y limpieza de datos: parseUtils.js centraliza el saneamiento:
   - toSafeNumber() convierte cualquier valor (string, null, undefined, "abc") a un
