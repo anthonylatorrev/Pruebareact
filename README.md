@@ -24,11 +24,11 @@ pale-app/
 ### Fase 1 — Arquitectura y Consumo de API
 - Pantalla de consulta: App.js lista las órdenes con un header, buscador y filtro de estado.
 - Consumo asíncrono real: useOrders.js simula una llamada a un servicio externo con
-  await new Promise(...) (latencia de red) y `async/await`, devolviendo un JSON. Basta con
-  reemplazar el cuerpo de `fetchOrdersFromApi` por un `fetch`/`axios` real hacia tu backend.
-- Rendimiento de listas: `FlatList` con `keyExtractor` estable (`order.id`),
+  await new Promise(...) (latencia de red) y async/await, devolviendo un JSON. Basta con
+  reemplazar el cuerpo de fetchOrdersFromApi por un fetch/axios real hacia tu backend.
+- Rendimiento de listas: FlatList con keyExtractor estable (`order.id`),
   initialNumToRender, maxToRenderPerBatch, windowSize y removeClippedSubviews.
-  OrderItem está envuelto en `React.memo` con comparación superficial para evitar
+  OrderItem está envuelto en React.memo con comparación superficial para evitar
   renders innecesarios.
 - Estados de UI: Loader mientras carga, EmptyState si no hay resultados o si el
   fetch falla (con mensaje amigable, sin pantallas en blanco).
